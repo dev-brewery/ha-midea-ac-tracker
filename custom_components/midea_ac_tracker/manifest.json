@@ -1,0 +1,12 @@
+{
+  "domain": "midea_ac_tracker",
+  "name": "Midea AC Tracker",
+  "codeowners": ["@dev-brewery"],
+  "config_flow": true,
+  "documentation": "https://github.com/dev-brewery/ha-midea-ac-tracker",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/dev-brewery/ha-midea-ac-tracker/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

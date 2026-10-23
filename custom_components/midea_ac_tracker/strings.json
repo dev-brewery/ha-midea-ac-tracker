@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Link a Midea Smart AC unit to its device tracker (for example from your router integration). Whenever the tracker reports a new IP address, the unit's Midea Smart AC entry is pointed at it and reloaded.",
+        "data": {
+          "midea_entry": "Midea Smart AC unit",
+          "device_tracker": "Unit's device tracker"
+        }
+      }
+    },
+    "error": {
+      "no_mac": "This device tracker has no MAC address, so the unit can't be identified. Pick a tracker from a router or network integration.",
+      "unknown_midea_entry": "That Midea Smart AC entry no longer exists."
+    },
+    "abort": {
+      "already_configured": "This device tracker is already linked to a unit.",
+      "no_midea_entries": "Add your units with Midea Smart AC first, then link them here."
+    }
+  }
+}
